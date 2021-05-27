@@ -32,24 +32,24 @@ namespace AntlrWorkout
 
     internal class MyGrammarErrorStrategy : DefaultErrorStrategy
     {
-        // public override void Recover(Parser recognizer, RecognitionException e)
-        // {
-        //     base.Recover(recognizer, e);
-        //
-        //     ITokenStream tokenStream = (ITokenStream) recognizer.InputStream;
-        //
-        //     // Verify we are where we expect to be
-        //     if (tokenStream.LA(1) == ExampleParser.Eof)
-        //     {
-        //         // Get the next possible tokens
-        //         IntervalSet intervalSet = GetErrorRecoverySet(recognizer);
-        //
-        //         // Move to the next token
-        //         tokenStream.Consume();
-        //         
-        //         ConsumeUntil(recognizer, intervalSet);
-        //     }
-        // }
+        public override void Recover(Parser recognizer, RecognitionException e)
+        {
+            base.Recover(recognizer, e);
+        
+            ITokenStream tokenStream = (ITokenStream) recognizer.InputStream;
+        
+            // Verify we are where we expect to be
+            if (tokenStream.LA(1) == ExampleParser.Eof)
+            {
+                // Get the next possible tokens
+                IntervalSet intervalSet = GetErrorRecoverySet(recognizer);
+        
+                // Move to the next token
+                tokenStream.Consume();
+                
+                ConsumeUntil(recognizer, intervalSet);
+            }
+        }
 
         public override void Sync(Parser recognizer)
         {
