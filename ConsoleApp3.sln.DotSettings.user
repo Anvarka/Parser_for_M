@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5a587ce2_002Dc3e9_002D4aa9_002D9a5b_002Dec268cd50e82/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="simpleTest1 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::10A69E3D-A46F-4DF0-8291-DD6807BABB9A::net5.0::AntlrWorkout.Tests.Test1.simpleTest1&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::10A69E3D-A46F-4DF0-8291-DD6807BABB9A::net5.0::AntlrWorkout.Tests.Test1.simpleTest2&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::10A69E3D-A46F-4DF0-8291-DD6807BABB9A::net5.0::AntlrWorkout.Tests.Test1.simpleTest3&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::10A69E3D-A46F-4DF0-8291-DD6807BABB9A::net5.0::AntlrWorkout.Tests.DeeperTest.simpleTest2&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::10A69E3D-A46F-4DF0-8291-DD6807BABB9A::net5.0::AntlrWorkout.Tests.DeeperTest.Test&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

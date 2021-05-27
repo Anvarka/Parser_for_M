@@ -1,0 +1,3 @@
+{_REL_rel1 = \ x1, x2, x3._CONS_constr1(x0) == _CONS_constr2(x2);} _CONS_constr1(x0) == _CONS_constr2(x2)
+{_REL_rel1 = \ x1._CONS_constr1() == _CONS_constr2(x2);} _CONS_constr1(x0) == _CONS_constr2(x2)
+

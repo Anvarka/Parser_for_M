@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/anvar/RiderProjects/ConsoleApp3/ConsoleApp3/ConsoleApp3.csproj": {}
+  },
+  "projects": {
+    "/home/anvar/RiderProjects/ConsoleApp3/ConsoleApp3/ConsoleApp3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anvar/RiderProjects/ConsoleApp3/ConsoleApp3/ConsoleApp3.csproj",
+        "projectName": "ConsoleApp3",
+        "projectPath": "/home/anvar/RiderProjects/ConsoleApp3/ConsoleApp3/ConsoleApp3.csproj",
+        "packagesPath": "/home/anvar/.nuget/packages/",
+        "outputPath": "/home/anvar/RiderProjects/ConsoleApp3/ConsoleApp3/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anvar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Antlr4.Runtime.Standard": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
